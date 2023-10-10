@@ -49,6 +49,8 @@ The following variables were identified as having the greatest association with 
 -49.390179 * day_of_week_weekend<br />
 -841.632542 * hour_8*day_of_week_weekend
 
+The baseline for categorical variables are hour_5, rainfall_mm_0.0 (no rainfall), month_1, and day_of_week_weekday. 
+
 ![Bike Rentals by Hour](images/bike_rentals_by_hour.png)
 
 Rush hours (8am, and 6pm to 10pm) are associated with an increase in rental bikes as this is likely when commuters are heading into and out of work. The 8am increase in particular is seen only on weekdays; the number of bikes rented during this hour significantly drops on the weekend. Given that these hours see the highest coefficients across the entire formula, it may be assumed that a large share of bike users are commuting to work. We can also see that bike rentals tend to increase when it is not a holiday; this further supports the idea that users are riding for transport rather than pleasure or city sight-seeing.
